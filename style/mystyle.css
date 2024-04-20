@@ -14,9 +14,20 @@
     box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, .1), inset 0 0.125em 0.5em rgba(0, 0, 0, .15);
 }
 
-h1{
+h1 {
     font-weight: bolder;
     font-family: 'Jersey 15';
+}
+
+.accordion-item {
+	--bs-accordion-btn-color: rgb(0, 0, 0);
+	--bs-accordion-btn-bg: rgb(255, 255, 255);
+	--bs-accordion-active-color: rgb(255, 255, 255);
+	--bs-accordion-active-bg: rgb(0, 0, 0);
+}
+
+.accordion-button {
+    font-weight: bold;
 }
 
 .jersey-15-regular {
