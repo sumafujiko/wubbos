@@ -1,3 +1,5 @@
+//Functions mainly made by Jill
+
 // Function for validation check
 (function () {
     'use strict'
