@@ -65,37 +65,57 @@
           </p>
         </div>
         <div class="col-md-6">
+
           <h1 class="text-center display-5 fw-bold lh-1 mb-3">Contact Form</h1>
+          <form class="needs-validation" novalidate>
+            <div class="row mb-3">
+              <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="John" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
 
-          <div class="row mb-3">
-            <div class="col-md-4">
-              <label for="validationDefault01" class="form-label">First name</label>
-              <input type="text" class="form-control" id="validationDefault01" placeholder="John" required>
+              <div class="col-md-8">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" placeholder="Doe" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
             </div>
-            <div class="col-md-8">
-              <label for="validationDefault02" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="validationDefault02" placeholder="Doe" required>
-            </div>
-          </div>
 
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Query</label>
-            <input class="form-control" type="text" placeholder="e.g. returns, feedback, general inquiries, etc. " aria-label="default input example">
-          </div>
-          
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Query Details</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <div class="mb-3 text-center">
-            <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
-            <label class="btn btn-primary" for="btn-check" onclick="apology()">Submit</label>
-          </div>
+            <div class="mb-3">
+              <label for="validationCustomEmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="validationCustomEmail" placeholder="name@example.com" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please enter a valid email address.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="validationCustom03" class="form-label">Query</label>
+              <input class="form-control" type="text" placeholder="e.g. returns, feedback, general inquiries, etc. " aria-label="default input example" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            
+            <div class="mb-3">
+              <label for="validationCustom04" class="form-label">Query Details</label>
+              <textarea class="form-control" id="validationCustom04" rows="6" placeholder="Enter details here"  required></textarea>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+
+            <div class="mb-3 text-center">
+              <button class="btn btn-primary" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit form</button>
+            </div>
+          </form>
         </div>
+
       </div>
     </div>
 
