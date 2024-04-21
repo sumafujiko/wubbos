@@ -5,6 +5,10 @@
     outline: none;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .divider {
     height: 3rem;
     background-color: rgba(0, 0, 0, .1);
