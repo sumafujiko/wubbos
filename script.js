@@ -51,7 +51,7 @@ let images = [
   '../images/shop-images/sneakers.jpeg',
   '../images/shop-images/socks.jpeg',
   '../images/shop-images/stickers.jpeg',
-  '../images/shop-images/sweaters.jpeg',
+  '../images/shop-images/sweater.jpeg',
 ];
 
 function showRandomImage() {
