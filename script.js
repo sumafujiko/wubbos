@@ -26,15 +26,15 @@ function apolgise(){
 }
 
 let images = [
-  './images/about-1.jpeg',
-  './images/about-3.jpeg',
-  './images/home-1.jpeg',
-  './images/home-2.jpeg',
-  './images/home-3.jpeg', 
-  './images/home-3.png',
-  './images/home-bottom-1.jpeg',
-  './images/home-bottom-2.jpeg',
-  './images/home-bottom-3.jpeg'
+  '../images/about-1.jpeg',
+  '../images/about-3.jpeg',
+  '../images/home-1.jpeg',
+  '../images/home-2.jpeg',
+  '../images/home-3.jpeg', 
+  '../images/home-3.jpeg',
+  '../images/home-bottom-1.jpeg',
+  '../images/home-bottom-2.jpeg',
+  '../images/home-bottom-3.jpeg'
 ]; 
 function showRandomImage() {
   let randomIndex = Math.floor(Math.random() * images.length); 
